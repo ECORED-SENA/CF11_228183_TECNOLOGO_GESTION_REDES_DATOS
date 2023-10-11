@@ -2,18 +2,216 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    right: 75%
+    width: 13%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
+    top: 17%
+    right: 22%
+    width: 13%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 57%
+    right: 80%
+    width: 15%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 37%
+    right: 65%
+    width: 18%
+  &-5
+    animation: float2 3.2s ease-in-out infinite alternate
+    position: absolute
     top: 51%
     right: 30%
-
+    width: 16%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+
+.banner-interno__fondo
+  background: url('../assets/curso/portada/mini-portada.png') !important  
+  background-size: cover !important
+  background-repeat: no-repeat
+  background-position: center !important
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $white !important
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+
+.bg-1
+  background-color: #DDE6FE  
+.bg-2
+  background-color: #6E40FB
+.bg-3
+  background-color:#E9E2FE
+.bg-4
+  background-color:#D9F6FE
+.bg-5
+  background-color:#6E40FC
+.bg-6
+  background-color:#A6EAFE
+.bg-7
+  background-color:#CCBCFD
+
+
+.bx-sh1
+  box-shadow: 0px 3px 6px #00000027
+.bx-sh2
+  box-shadow: 0px 13px 20px #B0C5FD
+.bx-sh3
+  box-shadow: 0px 16px 212px #b0c5fdb2
+.b-r4
+  border-radius: 4px  
+.b-r12
+  border-radius: 12px  
+.w-fit
+  width: fit-content
+.linea-div
+  border-left: 3px solid #1E5AF9
+
+
+.fondo1-tema1
+  background: url('../assets/curso/temas/t1/fondo1.png')
+  background-position: center bottom
+  background-size: 100% 90%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem   
+.fondo2-tema1
+  background: url('../assets/curso/temas/t1/fondo2.png')
+  background-position: center bottom
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem   
+.fondo3-tema1
+  background: url('../assets/curso/temas/t1/fondo3.png')
+  background-position: center bottom
+  background-size: 100% 90%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem   
+.fondo1-tema2
+  background: url('../assets/curso/temas/t2/fondo1.png')
+  background-position: top center
+  background-size: 100% 83%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover
+.fondo2-tema2
+  background: url('../assets/curso/temas/t2/fondo2.png')
+  background-position: center left
+  background-size: 89% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover
+.fondo3-tema2
+  background: url('../assets/curso/temas/t2/fondo3.png')
+  background-position: center bottom
+  background-size: 100% 90%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem 
+.fondo4-tema2
+  background: url('../assets/curso/temas/t2/fondo4.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+.fondo5-tema2
+  background: url('../assets/curso/temas/t2/fondo5.png')
+  background-position: bottom center
+  background-size: 100% 90.5%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem 
+.fondo-tema3
+  background: #F6F6F6
+  background-size: cover
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem 
+.fondo1-tema3
+  background: url('../assets/curso/temas/t3/fondo1.png')
+  background-position: bottom center
+  background-size: 100% 82%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+.fondo2-tema3
+  background: url('../assets/curso/temas/t3/fondo2.png')
+  background-position: bottom center
+  background-size: 100% 82%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem  
+
+
+.cajon-b.color-acento-contenido:before
+  background-color: #E9E2FE
+  opacity: 1
+  right: 65%
+  bottom: 64% 
+
+.t-hover3
+  background-color: #B0C5FD  
+  border-radius: 12px
+  cursor: pointer
+  transition: all 0.3s ease-out
+  &:hover
+    background-color: #C7264C 
+    transition: all 0.3s ease-out
+    h4, p
+      color: #FFF
+
+
+.acordion__accion__btn--b
+  border-color: #F9305F
+  background-color: #F9305F
+.acordion__accion__btn--b i
+  color: #FFF  
+.tabs-a__tab
+  background-color: #E8E8E8
+.tabs-a__tab.tabs-a__tab__selected .tabs-a__tab__text
+  color: #FFF 
+.linea-tiempo-d__item__content.tarjeta, .linea-tiempo-d__item__number.tarjeta
+  background-color: #E8E8E8
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta
+  background-color: #E9E2FE
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__number.tarjeta span
+  color: #FFF

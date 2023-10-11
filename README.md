@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF11_228183_TECNOLOGO_GESTION_REDES_DATOS/](https://ecored-sena.github.io/CF11_228183_TECNOLOGO_GESTION_REDES_DATOS/)
 
 #
 
