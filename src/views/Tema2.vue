@@ -61,7 +61,7 @@
             figure
               img(src="@/assets/curso/temas/t2/fig3.svg", alt="Imagen que presenta el esquema de la arquitectura de FreeSwitch.")
 
-    p(data-aos="fade")  La arquitectura de FreeSwitch se basa en un sistema modular en el que se tiene un core o núcleo, donde registra el sistema base para todos los módulos, sin embargo, la mayoría de las funcionalidades están implementadas en cada uno de los módulos de manera independiente.
+    p(data-aos="fade")  La arquitectura de FreeSwitch se basa en un sistema modular en el que se tiene un #[em core] o núcleo, donde registra el sistema base para todos los módulos, sin embargo, la mayoría de las funcionalidades están implementadas en cada uno de los módulos de manera independiente.
     p.mb-4(data-aos="fade")  Algunas de las características relevantes en los componentes de la arquitectura FreeSwitch, son:
 
     .fondo4-tema2
@@ -84,7 +84,7 @@
               p FreeSwitch soporta una amplia variedad de #[em codecs].
             .tarjeta.color-primario.p-4.text-white.text-center.d-flex.justify-content-center.flex-column
               h4 Sistema modular
-              p Escalable, capacidad de extender el core, implementar componentes sin romper la funcionalidad.
+              p Escalable, capacidad de extender el #[em core], implementar componentes sin romper la funcionalidad.
 
     Separador 
 
@@ -103,13 +103,14 @@
               |  será 
               em.bg-2.fw-bold.text-white.px-1 mod_sofia
               |  el encargado de llamar al 
-              em.bg-2.fw-bold.text-white.px-1 switch_core_session_request,
-              |  establecer un perfil de llamada 
+              em.bg-2.fw-bold.text-white.px-1 switch_core_session_request
+              | , establecer un perfil de llamada 
               em.bg-2.fw-bold.text-white.px-1 caller profile
               |  y que sea generado un nuevo hilo en la máquina de estado. Esta enrutará y ejecutará el estado colocando en funcionamiento las funciones necesarias que a través de 
               em.bg-2.fw-bold.text-white.px-1 mod_openzap
               |  permite establecer la comunicación con la red de telefonía básica. Es preciso indicar que la estructura de la llamada viene definida en 
-              em.bg-2.fw-bold.text-white.px-1 switch_core_session.
+              em.bg-2.fw-bold.text-white.px-1 switch_core_session
+              | .
           .col-lg-5.mb-4
             img(src="@/assets/curso/temas/t2/img5.png", alt="")
 

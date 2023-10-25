@@ -173,14 +173,15 @@ export default {
       referencia:
         'Moya, F. (2010). Análisis de herramienta de gestión de VoIP. Departamento de Ingeniería de Sistemas y Automática.',
       tipo: 'Sitio web',
-      link: 'http://bibing.us.es/proyectos/abreproy/11920',
+      link:
+        'https://biblus.us.es/bibing/proyectos/abreproy/11920/fichero/Cap%C3%ADtulo+1.pdf',
     },
     {
       tema: 'Tutorial completo de Asterisk',
       referencia:
         'Redes Plus. (2019). Tutorial completo de asterisk [Vídeo]. YouTube.',
       tipo: 'Video',
-      descarga: 'https://youtu.be/yCpPo6aeKU4',
+      link: 'https://www.youtube.com/watch?v=yCpPo6aeKU4',
     },
     {
       tema: 'Asterisk QoS',
@@ -192,13 +193,13 @@ export default {
       tema: 'Asterisk',
       referencia: 'voip-info.org. (2021). Asterisk.',
       tipo: 'Sitio web',
-      descarga: 'https://www.voip-info.org/asterisk/',
+      link: 'https://www.voip-info.org/asterisk/',
     },
     {
       tema: 'FreeSwitch',
       referencia: 'FreeSwitch. (2020). FreeSwitch. FreeSwitch.org.',
       tipo: 'Sitio web',
-      descarga: 'https://FreeSwitch.com/',
+      link: 'https://signalwire.com/freeswitch',
     },
   ],
   glosario: [
@@ -215,7 +216,7 @@ export default {
     {
       termino: 'Cliente SIP',
       significado:
-        'Software donde se configura la línea SIP para que pueda realizar y recibir llamadas y otras funcionalidades prestadas por el sistema.',
+        '<em>software</em> donde se configura la línea SIP para que pueda realizar y recibir llamadas y otras funcionalidades prestadas por el sistema.',
     },
     {
       termino: 'DTMF (<em>Dual-Tone Multi-Frequency</em>)',

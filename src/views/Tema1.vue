@@ -83,7 +83,7 @@
                   p #[em Application Launcher], subsistema empleado por el núcleo PBX para ejecutar aplicaciones o servicios necesarios, como activar el buzón de voz o listar directorios o activar el mensaje de bienvenida.
               .row(titulo="Traductores de <em>codecs</em>")
                 .col-md-11.mb-4.mb-md-0
-                  p #[em Codec Translator], este componente realiza la codificación y decodificación de los diferentes formatos de audio y video, de manera que se entiendan, y en el caso de los codecs, que fluyan entre los canales, así sean de formatos diferentes.
+                  p #[em Codec Translator], este componente realiza la codificación y decodificación de los diferentes formatos de audio y video, de manera que se entiendan, y en el caso de los #[em codecs], que fluyan entre los canales, así sean de formatos diferentes.
               .row(titulo="Temporizador y gestor de entradas y salidas")
                 .col-md-11.mb-4.mb-md-0
                   p #[em Schedule and IO Manager], sin importar las condiciones de carga, este componente maneja las tareas de bajo nivel, de manera que el sistema funcione de manera óptima.
@@ -99,9 +99,9 @@
                 .tarjeta.bg-3.p-4(titulo="Asterisk <em>Application</em> API")
                   h4 Asterisk #[em Application] API
                   p Interfaz para la ejecución de aplicaciones que desarrollan diferentes funciones dentro del sistema, como por ejemplo: buzón, conferencias y demás aplicaciones inherentes al sistema, también permite el desarrollo de nuevas aplicaciones que interactúen con el núcleo PBX.
-                .tarjeta.bg-3.p-4(titulo="Codec <em>Translator</em> API")
-                  h4 Codec #[em Translator] API
-                  p O API de traducción de #[em codecs], en esta API se cargan los módulos que contienen los codecs necesarios para la codificación y decodificación de los diferentes formatos de codecs.
+                .tarjeta.bg-3.p-4(titulo="<em>Codec Translator</em> API")
+                  h4 #[em Codec Translator] API
+                  p O API de traducción de #[em codecs], en esta API se cargan los módulos que contienen los #[em codecs] necesarios para la codificación y decodificación de los diferentes formatos de #[em codecs].
                 .tarjeta.bg-3.p-4(titulo="Asterisk <em>File Format</em> API")
                   h4 Asterisk #[em File Format] API
                   p API para el formato de ficheros, permite que Asterisk pueda leer y escribir en diferentes formatos MP3, WAV, AU, etc.

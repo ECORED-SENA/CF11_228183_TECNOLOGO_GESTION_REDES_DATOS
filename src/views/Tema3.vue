@@ -10,7 +10,7 @@
     .row.align-items-center
       .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon-b.color-acento-contenido.p-3.ps-0
-          p.mb-0 La gestión de fallos se basa fundamentalmente en detectar y subsanar todos aquellos malfuncionamientos que puedan surgir durante el desarrollo de las funciones de cualquier sistema, y puede desarrollarse bien sea de manera proactiva, si sus especificaciones se dirigen a la anticipación de fallos, o de manera reactiva, en caso que su gestión se desarrolle posteriormente a la ocurrencia de estos.
+          p.mb-0 La gestión de fallos se basa fundamentalmente en detectar y subsanar todos aquellos malfuncionamientos que puedan surgir durante el desarrollo de las funciones de cualquier sistema, y puede desarrollarse bien sea de manera proactiva, si sus especificaciones se dirigen a la anticipación de fallos, o de manera reactiva, en caso de que su gestión se desarrolle posteriormente a la ocurrencia de estos.
         p Así las cosas, al aplicarse gestión de fallos proactiva, las herramientas utilizadas se basarán en tareas de monitoreo a los parámetros del sistema identificados como críticos y determinantes, para la probabilidad de ocurrencia que pueden ser las pérdidas en la red, las llamadas simultáneas o el retardo.
         .row.align-items-center.mb-3.mb-lg-0
           .col-md-3.mb-3.mb-md-0
@@ -33,9 +33,9 @@
         img(src="@/assets/curso/temas/t3/img3.svg", alt="")
       .col-lg-8(data-aos="fade-left")
         p Asterisk genera archivos #[em logfiles], que registran lo que sucede en un periodo de tiempo, estos archivos son la herramienta para obtener los datos sobre los errores por medio de cat/var/log/asterisk/full.
-        p Para la depuración, existen también aplicaciones como NoOp() que significa sin operación, la cual facilita la depuración en tiempo real; Verbose que funciona igual que NoOp pero a diferencia de esta, Verbose permite especificar el nivel de detalle, o DumpChan, que arroja la información del canal en curso.
+        p Para la depuración, existen también aplicaciones como NoOp() que significa sin operación, la cual facilita la depuración en tiempo real; Verbose que funciona igual que NoOp, pero a diferencia de esta, Verbose permite especificar el nivel de detalle, o DumpChan, que arroja la información del canal en curso.
         .bg-3.p-3
-          p.mb-0 La estructura Tail también escribe la última parte de un archivo tail [opción..][archivo…], se utiliza para monitoreo de archivos de registro crecientes.
+          p.mb-0 La estructura #[em Tail] también escribe la última parte de un archivo #[em tail] [opción...][archivo…], se utiliza para monitoreo de archivos de registro crecientes.
 
 
     Separador 
@@ -47,7 +47,8 @@
     .row.align-items-center
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p En el sistema de FreeSwitch, para la gestión de fallos, se centra en consultar los logs files del módulo 
-          em.bg-2.fw-bold.text-white.px-1 mod_logfile.
+          em.bg-2.fw-bold.text-white.px-1 mod_logfile
+          | .
         .bg-4.p-3.mb-3
           p.mb-0 Ingresando mediante la consola con la secuencia cat/usr/local/FreeSwitch/log/FreeSwitch.log se podrá observar en detalle lo que ha sucedido en el sistema en tiempo real, como errores, 
           em warnings, 
@@ -88,7 +89,7 @@
             .col-lg-8(data-aos="fade-left")
               .bg-6.b-r12.p-4.mb-3 
                 h4 asterisk.conf
-                p.mb-0 Para la localización de todos los componentes de Asterisk como de sonido, scripts.
+                p.mb-0 Para la localización de todos los componentes de Asterisk como sonidos, #[em scripts], entre otros.
               .bg-6.b-r12.p-4.mb-3 
                 h4 modules.conf
                 p.mb-0 Indica cuáles son los módulos a cargar al inicializarse.
@@ -100,7 +101,7 @@
                 p.mb-0 Mediante la herramienta Asterisk manager, configura las restricciones de seguridad de conexión.
               .bg-6.b-r12.p-4.mb-3 
                 h4 sip.conf
-                p.mb-0 Instrucciones de configuración para interactuar utilizando el protocolo SIP, al igual que el fichero iax.conf para interactuar con el protocolo IAX o el h323.conf en el caso de interactuar con otros dispositivos y utilizar el protocolo h323
+                p.mb-0 Instrucciones de configuración para interactuar utilizando el protocolo SIP, al igual que el fichero iax.conf para interactuar con el protocolo IAX o el h323.conf en el caso de interactuar con otros dispositivos y utilizar el protocolo h323.
 
     .bg-5.p-2.px-4.b-r4.w-fit.mb-4(data-aos="fade") 
       h3.text-white.mb-0 Gestión de la configuración en FreeSwitch
@@ -195,7 +196,7 @@
           h4.mb-2 Wireshark
           p.mb-5 También es conocida como Ethereal, con interfaz gráfica y posibilidad de filtrado es un analizador de protocolos.
           h4.mb-2 AQUA VQM Asterisk 4
-          p Permite pruebas sobre la voz en cuanto a percepción y calidad, como también control a la calidad del audio, a la par que como herramienta de código abierto, brinda posibilidades de pruebas con menús IVRS, informes, test de marcado, entre otras características.
+          p Permite pruebas sobre la voz en cuanto a percepción y calidad, como también control a la calidad del audio, a la par que, como herramienta de código abierto, brinda posibilidades de pruebas con menús IVRS, informes, test de marcado, entre otras características.
       .col-lg-6.px-lg-0
         .bg-4.p-md-5.p-3.h-100(data-aos="fade-left")
           .bg-5.p-2.px-4.b-r4.w-fit.mb-4 
@@ -256,7 +257,7 @@
                     | Identificación de IPs.
                   li.mb-0 
                     span.text-bold f. 
-                    | Configuración de reglas en el Firewall.
+                    span.mb-0 Configuración de reglas en el #[em Firewall].
                   li.mb-0 
                     span.text-bold g. 
                     | Asignación de perfiles y permisos.
