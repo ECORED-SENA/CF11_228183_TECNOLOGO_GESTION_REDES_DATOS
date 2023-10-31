@@ -153,7 +153,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228183_CF011_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -299,40 +299,6 @@ export default {
           cargo: 'Instructor',
           centro:
             'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
-        },
-        {
-          nombre: 'Luz Mila Pacheco Fuentes',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Julieth Paola Vital López',
-          cargo: 'Corrección de estilo',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Heidi Zuleima Gil Castañeda',
-          cargo: 'Experta Temática',
-          centro:
-            'Centro de la Industria la Empresa y los Servicios – Regional Norte de Santander',
-        },
-        {
-          nombre: 'Deivis Eduard Ramirez Martinez',
-          cargo: 'Diseñador instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito capital',
-        },
-        {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Revisora Metodológica y Pedagógica',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Diseñador y evaluador instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
