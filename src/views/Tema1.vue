@@ -13,7 +13,7 @@
         .cajon-b.color-acento-contenido.p-3
           p.mb-0 Asterisk es tanto una plataforma de telefonía como una central de 
             em software 
-            | (PBX) de código abierto. Como cualquier central PBX ,permite interconectar teléfonos y conectar dichos teléfonos a la red telefónica pública. Su nombre viene del símbolo asterisco (*) en inglés. El creador original de esta centralita es Mark Spencer de la compañía Digium, que sigue siendo el principal desarrollador de las versiones estables. Al ser de código libre, existen multitud de desarrolladores que han aportado funciones y nuevas aplicaciones. Originalmente fue creada para sistemas Linux pero hoy en día funciona también en sistemas OpenBSD, FreeBSD, Mac OSX, Solaris Sun y Windows, aunque Linux sigue siendo la que más soporte presenta. El paquete básico de Asterisk incluye muchas características que antes solo estaban disponibles en caros sistemas propietarios como creación de extensiones, envío de mensajes de voz a email, llamadas en conferencia, menús de voz interactivos y distribución automática de llamadas.
+            | (PBX) de código abierto. Como cualquier central PBX, permite interconectar teléfonos y conectar dichos teléfonos a la red telefónica pública. Su nombre viene del símbolo asterisco (*) en inglés. El creador original de esta centralita es Mark Spencer de la compañía Digium, que sigue siendo el principal desarrollador de las versiones estables. Al ser de código libre, existen multitud de desarrolladores que han aportado funciones y nuevas aplicaciones. Originalmente fue creada para sistemas Linux, pero hoy en día funciona también en sistemas OpenBSD, FreeBSD, Mac OSX, Solaris Sun y Windows, aunque Linux sigue siendo la que más soporte presenta. El paquete básico de Asterisk incluye muchas características que antes solo estaban disponibles en caros sistemas propietarios como creación de extensiones, envío de mensajes de voz a email, llamadas en conferencia, menús de voz interactivos y distribución automática de llamadas.
       .col-lg-4(data-aos="fade-left")
         img(src="@/assets/curso/temas/t1/img.png", alt="")
 
@@ -77,7 +77,7 @@
                   p #[em Dynamic module loader], cada vez que inicia Asterisk, su función es la carga e inicialización de los drivers que se requieren, por medio del archivo modules.conf que hace parte de los archivos de configuración en texto plano que gobiernan las operaciones de Asterisk.
               .row(titulo="Núcleo de la central")
                 .col-md-11.mb-4.mb-md-0
-                  p #[em PBX Switching], se encarga de conectar y conmutar las llamadas entrantes de diferentes hardware y software, de manera transparente, según lo definido en el plan de marcación, este núcleo es la esencia de Asterisk.
+                  p #[em PBX Switching], se encarga de conectar y conmutar las llamadas entrantes de diferentes #[em hardware] y #[em software], de manera transparente, según lo definido en el plan de marcación, este núcleo es la esencia de Asterisk.
               .row(titulo="Lanzador de aplicaciones")
                 .col-md-11.mb-4.mb-md-0
                   p #[em Application Launcher], subsistema empleado por el núcleo PBX para ejecutar aplicaciones o servicios necesarios, como activar el buzón de voz o listar directorios o activar el mensaje de bienvenida.
@@ -175,7 +175,7 @@
                 .col-md-3.mb-3.mb-md-0
                   img(src="@/assets/curso/temas/t1/img10.svg", alt="")
                 .col-md-9
-                  p.mb-0 En la página oficial de Asterisk ,puede encontrarse actualizada la totalidad de aplicaciones disponibles para el #[em dial plan].
+                  p.mb-0 En la página oficial de Asterisk, puede encontrarse actualizada la totalidad de aplicaciones disponibles para el #[em dial plan].
             .col-lg-5(data-aos="fade-left")
               img(src="@/assets/curso/temas/t1/img9.png", alt="")
 

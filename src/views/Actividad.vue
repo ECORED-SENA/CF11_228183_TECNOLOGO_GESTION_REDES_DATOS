@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Voz IP
-        p.mb-4 Repasar los conocimientos adquiridos en la gestión de equipos y software para VoIP.
+        p.mb-4 Repasar los conocimientos adquiridos en la gestión de equipos y #[em software] para VoIP.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

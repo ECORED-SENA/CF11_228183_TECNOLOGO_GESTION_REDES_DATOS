@@ -257,10 +257,6 @@ export default {
     },
     {
       referencia:
-        'Domínguez, O. G. (2016). Fundamentos de Redes de Voz IP: 2ª Edición. IT Campus Academy.',
-    },
-    {
-      referencia:
         'Moya, F. (2010). Análisis de herramienta de gestión de VoIP. <em>Departamento de Ingeniería de Sistemas y Automática</em>.',
     },
     {

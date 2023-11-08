@@ -46,7 +46,7 @@
 
     .row.align-items-center
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-        p En el sistema de FreeSwitch, para la gestión de fallos, se centra en consultar los logs files del módulo 
+        p En el sistema de FreeSwitch, para la gestión de fallos, se centra en consultar los #[em logs files] del módulo 
           em.bg-2.fw-bold.text-white.px-1 mod_logfile
           | .
         .bg-4.p-3.mb-3
@@ -196,7 +196,7 @@
           h4.mb-2 Wireshark
           p.mb-5 También es conocida como Ethereal, con interfaz gráfica y posibilidad de filtrado es un analizador de protocolos.
           h4.mb-2 AQUA VQM Asterisk 4
-          p Permite pruebas sobre la voz en cuanto a percepción y calidad, como también control a la calidad del audio, a la par que, como herramienta de código abierto, brinda posibilidades de pruebas con menús IVRS, informes, test de marcado, entre otras características.
+          p Permite pruebas sobre la voz en cuanto a percepción y calidad, como también control a la calidad del audio, a la par que, como herramienta de código abierto, brinda posibilidades de pruebas con menús IVRS, informes, #[em test] de marcado, entre otras características.
       .col-lg-6.px-lg-0
         .bg-4.p-md-5.p-3.h-100(data-aos="fade-left")
           .bg-5.p-2.px-4.b-r4.w-fit.mb-4 
@@ -218,7 +218,7 @@
       .col-lg-1.col-md-2.mb-3.mb-lg-0(data-aos="fade-right")
         img(src="@/assets/curso/temas/t3/img10.svg", alt="")
       .col-lg-11.col-md-10(data-aos="fade-left")
-        p Para garantizar la seguridad del sistema la gestión, se lleva a cabo de manera que se definan políticas de restricción de acceso y las buenas prácticas de seguridad en la información, esto es seguridad básica a través del uso de contraseñas seguras actualizables en periodos de tiempo, media a través del monitoreo continuo de los log, notificaciones o cambio de puertos y seguridad directamente en la aplicación utilizada.
+        p Para garantizar la seguridad del sistema, la gestión se lleva a cabo de manera que se definan políticas de restricción de acceso y las buenas prácticas de seguridad en la información, esto es seguridad básica a través del uso de contraseñas seguras actualizables en periodos de tiempo, media a través del monitoreo continuo de los #[em log], notificaciones o cambio de puertos y seguridad directamente en la aplicación utilizada.
 
     .row.fondo2-tema3.align-items-center.py-4.pb-5.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -233,7 +233,7 @@
                   h3.text-white.mb-0 Gestión de la seguridad en Asterisk
                 p En la aplicación como tal, pueden emplearse buenas prácticas como salas de conferencias con contraseña, asociar extensión por IP de ser posible, limitar el tiempo de llamadas según la extensión, cifrar comunicaciones y registros usando TLS (seguridad en la capa de transporte) y SRTP (
                   em Secure Real–Time Transport Protocol
-                  | ). Asterisk a su vez, permite la autenticación de usuarios, verificación de privilegios, proporciona logs de registro de eventos, es importante siempre la implementación de antivirus compatibles y la utilización de las IPtables, en las que se definen políticas para el filtrado del tráfico, es decir como un firewall perfectamente configurable.
+                  | ). Asterisk a su vez, permite la autenticación de usuarios, verificación de privilegios, proporciona #[em logs] de registro de eventos, es importante siempre la implementación de antivirus compatibles y la utilización de las IPtables, en las que se definen políticas para el filtrado del tráfico, es decir como un #[em firewall] perfectamente configurable.
             .col-lg-6.px-lg-0.linea-div
               .bg-white.p-md-5.p-3.h-100
                 .bg-5.p-2.px-4.b-r4.w-fit.mb-4
