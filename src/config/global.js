@@ -286,13 +286,13 @@ export default {
       autores: [
         {
           nombre: 'Jorge Eliécer Loaiza Muñoz',
-          cargo: 'Instructor',
+          cargo: 'Experto Temático ',
           centro:
             'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
           nombre: 'Carlos Mauricio Tovar Artunduaga',
-          cargo: 'Instructor',
+          cargo: 'Experto Temático ',
           centro:
             'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
         },
@@ -300,7 +300,7 @@ export default {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Metodólogo para formación virtual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
       ],
     },
@@ -308,20 +308,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carmen Alicia Martínez Torres',
+          nombre: 'Daniela Muñoz Bedoya',
           cargo: 'Animador y Productor Multimedia',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Camilo Andrés Bolaño Rey',
-          cargo: 'Locución',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
